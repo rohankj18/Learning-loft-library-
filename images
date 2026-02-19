@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning Loft Library</title>
+
+<style>
+body {
+margin:0;
+font-family:Arial;
+background:#2b2b2b;
+color:white;
+}
+
+header{
+background:#1e1e1e;
+padding:20px;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+letter-spacing:2px;
+box-shadow:0px 5px 15px black;
+}
+
+.hero{
+height:300px;
+background:url('images/hall.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:35px;
+font-weight:bold;
+text-shadow:2px 2px 10px black;
+}
+
+.section{
+padding:40px;
+text-align:center;
+}
+
+.facilities{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.box{
+background:#3a3a3a;
+padding:30px;
+border-radius:20px;
+box-shadow:5px 5px 20px black;
+font-size:18px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.gallery img{
+width:100%;
+border-radius:20px;
+box-shadow:5px 5px 20px black;
+}
+
+.contact{
+font-size:20px;
+padding:40px;
+background:#1e1e1e;
+}
+
+button{
+padding:15px 30px;
+border:none;
+background:#ff9800;
+color:white;
+font-size:18px;
+border-radius:10px;
+box-shadow:3px 3px 10px black;
+}
+</style>
+</head>
+
+<body>
+
+<header>LEARNING LOFT LIBRARY</header>
+
+<div class="hero">
+24x7 Silent Study Space
+</div>
+
+<div class="section">
+<h2>Facilities</h2>
+<div class="facilities">
+<div class="box">AC Room</div>
+<div class="box">Free WiFi</div>
+<div class="box">Locker Facility</div>
+<div class="box">Daily Newspaper</div>
+<div class="box">Books & Study Material</div>
+<div class="box">Ventilated Silent Study</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="images/hall.jpg">
+<img src="images/cabin.jpg">
+<img src="images/locker.jpg">
+<img src="images/reception.jpg">
+<img src="images/building.jpg">
+</div>
+</div>
+
+<div class="contact">
+<p><b>Address:</b> Parbhakar Tower, Near Pine Ville Guest House, Railway Road Udhampur</p>
+<p><b>Contact:</b> +91 90861 07777</p>
+<a href="https://wa.me/919086107777">
+<button>Contact on WhatsApp</button>
+</a>
+</div>
+
+</body>
+</html>
